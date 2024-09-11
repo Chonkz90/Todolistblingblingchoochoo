@@ -8,9 +8,19 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
+    <div id="myDIV" class="header">
+      <h2>My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    
+    <ul id="myUL">
+      <li>Handle</li>
+      <li class="checked">Regninger</li>
+      <li>Lage liste</li>
+      <li>Ta ut boss</li>
+      <li>Lese 2 kapitler</li>
+      <li>Rydde</li>
+    </ul>
   </body>
 </html>
